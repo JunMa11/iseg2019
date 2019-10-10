@@ -1,0 +1,63 @@
+{
+    "description": "6-month Infant Brain MRI Segmentation",
+    "labels": {
+        "0": "Background",
+        "1": "Cerebrospinal fluid ",
+        "2": "Gray matter ",
+        "3": "White matter"
+    },
+    "licence": "touch it and you die",
+    "modality": {
+        "0": "T1",
+        "1": "T2"
+    },
+    "name": "Task07_iSeg",
+    "numTest": 0,
+    "numTraining": 10,
+    "reference": "f off, this is private",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [],
+    "training": [
+        {
+            "image": "./imagesTr/iseg_1.nii.gz",
+            "label": "./labelsTr/iseg_1.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_10.nii.gz",
+            "label": "./labelsTr/iseg_10.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_2.nii.gz",
+            "label": "./labelsTr/iseg_2.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_3.nii.gz",
+            "label": "./labelsTr/iseg_3.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_4.nii.gz",
+            "label": "./labelsTr/iseg_4.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_5.nii.gz",
+            "label": "./labelsTr/iseg_5.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_6.nii.gz",
+            "label": "./labelsTr/iseg_6.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_7.nii.gz",
+            "label": "./labelsTr/iseg_7.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_8.nii.gz",
+            "label": "./labelsTr/iseg_8.nii.gz"
+        },
+        {
+            "image": "./imagesTr/iseg_9.nii.gz",
+            "label": "./labelsTr/iseg_9.nii.gz"
+        }
+    ]
+}
