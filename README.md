@@ -1,7 +1,7 @@
 # iSeg2019 [Homepage](http://iseg2019.web.unc.edu/) & [Leaderboard](http://iseg2019.web.unc.edu/evaluation-results/)
 3D U-net Baseline for iseg-2019 and An Attempt at Dealing With Multiple Sites Data via Histogram Matching
 
-The 3D U-Net baseline is based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). Please install the nnU-Net if you want to inference your validation/test data using pre-trained model.
+The 3D U-Net baseline is based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
 
 ## Requirement
 - [Pytorch](https://pytorch.org/get-started/locally/) version >=1.0.1
@@ -44,7 +44,7 @@ TBD
 
 ## Re-train the model on TitanXP GPU
 I use all the training cases during training. 
-- Put the `data.json` into `path to/mydata_folder/nnUNet_raw_splitted/Task07_iSeg`
+- Put the `dataset.json` into `path to/mydata_folder/nnUNet_raw_splitted/Task07_iSeg`
 - Run `python experiment_planning/plan_and_preprocess_task.py -t Task07_iSeg -pf 10`
 - Run `python run/run_training.py 3d_fullres nnUNetTrainer Task07_iSeg all --ndet`.
 
