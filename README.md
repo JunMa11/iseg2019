@@ -28,7 +28,7 @@ The finally folder structure should be
 Then, Put the above `Task07_iSeg` folder into `path to/mydata_folder/nnUNet_raw_splitted`
 
 ## Testing
-- Downloda the [pre-trained model]() and put it in the nnU-Net's model folder `mydata_folder/nnUNet/3d_fullres/Task07_iSeg`. Download: [BaiduNetDisk](https://pan.baidu.com/s/1wxFuMtCt8XuIGbHxBE9myQ) pw:u3hg
+- Downloda the pre-trained model and put it in the nnU-Net's model folder `mydata_folder/nnUNet/3d_fullres/Task07_iSeg`. Download: [BaiduNetDisk](https://pan.baidu.com/s/1Km0vqM3sDrA4z71Z7zs2HQ) pw:xyhu
 - Inference validation set: Run `python inference/predict_simple.py -i path to/imagesVal -o OUTPUT_FOLDER -t Task07_iSeg -tr nnUNetTrainer -m 3d_fullres -f all`
 - Inference testing set: Run `python inference/predict_simple.py -i path to/imagesTs -o OUTPUT_FOLDER -t Task07_iSeg -tr nnUNetTrainer -m 3d_fullres -f all`
 
